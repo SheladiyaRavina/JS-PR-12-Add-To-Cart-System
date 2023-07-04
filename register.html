@@ -1,0 +1,399 @@
+<div class="wb-header"></div>
+<!DOCTYPE html>
+
+<head>
+    <title>coffee - Create Account</title>
+    <meta name='platform' content='bigcommerce.stencil' />
+
+    <link href="https://cdn11.bigcommerce.com/r-b28497b0f7cb3d5c04d0189ace71ddcc53d20fd4/img/bc_favicon.ico"
+        rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style type="text/css">
+        @font-face {
+            font-family: "Lemonada-Bold";
+            src: url("https://cdn11.bigcommerce.com/s-oxligrgbea/stencil/84fed160-94a9-0135-b21d-525400970412/e/12ab1490-9490-0135-5171-525400970412/fonts/Lemonada-Bold.ttf");
+        }
+
+        @font-face {
+            font-family: "Lemonada-Regular";
+            src: url("https://cdn11.bigcommerce.com/s-oxligrgbea/stencil/84fed160-94a9-0135-b21d-525400970412/e/12ab1490-9490-0135-5171-525400970412/fonts/Lemonada-Regular.ttf");
+        }
+
+        @font-face {
+            font-family: "Lemonada-SemiBold";
+            src: url("https://cdn11.bigcommerce.com/s-oxligrgbea/stencil/84fed160-94a9-0135-b21d-525400970412/e/12ab1490-9490-0135-5171-525400970412/fonts/Lemonada-SemiBold.ttf");
+        }
+
+        @font-face {
+            font-family: "OpenSans-Regular";
+            src: url("https://cdn11.bigcommerce.com/s-oxligrgbea/stencil/84fed160-94a9-0135-b21d-525400970412/e/12ab1490-9490-0135-5171-525400970412/fonts/OpenSans-Regular.ttf");
+        }
+    </style>
+    <link data-stencil-stylesheet
+        href="https://cdn11.bigcommerce.com/s-oxligrgbea/stencil/84fed160-94a9-0135-b21d-525400970412/e/12ab1490-9490-0135-5171-525400970412/css/theme-a2199910-94a9-0135-532e-525400970412.css"
+        rel="stylesheet">
+    <!-- webiarch custom -->
+    <link data-stencil-stylesheet
+        href="https://cdn11.bigcommerce.com/s-oxligrgbea/stencil/84fed160-94a9-0135-b21d-525400970412/e/12ab1490-9490-0135-5171-525400970412/custom/css/font-awesome.min.css"
+        rel="stylesheet">
+    <link data-stencil-stylesheet
+        href="https://cdn11.bigcommerce.com/s-oxligrgbea/stencil/84fed160-94a9-0135-b21d-525400970412/e/12ab1490-9490-0135-5171-525400970412/custom/webi-style.css"
+        rel="stylesheet">
+    <link data-stencil-stylesheet
+        href="https://cdn11.bigcommerce.com/s-oxligrgbea/stencil/84fed160-94a9-0135-b21d-525400970412/e/12ab1490-9490-0135-5171-525400970412/custom/owl-carousel/css/owl.carousel.css"
+        rel="stylesheet">
+   
+    <!-- webiarch custom  end -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400%7COswald:300%7CKarla:400&display=swap"
+        rel="stylesheet">
+   
+     <header class="header" role="banner">
+        <div class="container header-main">
+            <div class="">
+                <a href="#" class="mobileMenu-toggle" data-mobile-menu-toggle="menu">
+                    <span class="mobileMenu-toggleIcon">Toggle menu</span>
+                </a>
+                <nav class="navUser">
+                    <ul class="navUser-section currency-selection">
+                        <li class="navUser-item">
+                            <a class="navUser-action has-dropdown" href="#" data-dropdown="currencySelection"
+                                aria-controls="currencySelection" aria-expanded="false"> USD <i class="icon"
+                                    aria-hidden="true"><svg>
+                                        <use xlink:href="#icon-chevron-down" />
+                                    </svg></i></a>
+                            <ul class="dropdown-menu" id="currencySelection" data-dropdown-content aria-hidden="true"
+                                tabindex="-1">
+                                <li class="dropdown-menu-item">
+                                    <a href="https://coffee.mybigcommerce.com/login.html?setCurrencyId=1">
+                                        Indian Rupee
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu-item">
+                                    <a href="https://coffee.mybigcommerce.com/login.html?setCurrencyId=2">
+                                        <strong>Dollar</strong>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navUser-section navUser-section--alt">
+                        <li class="navUser-item">
+                            <a class="navUser-action navUser-item--compare" href="/compare" data-compare-nav>Compare
+                                <span class="countPill countPill--positive countPill--alt"></span></a>
+                        </li>
+                        <li class="navUser-item top-icon">
+                            <a class="navUser-action navUser-action--quickSearch" href="#" data-search="quickSearch"
+                                aria-controls="quickSearch" aria-expanded="false"> <i
+                                    class="fa fa-search"></i></a>
+                        </li>
+                        <li class="navUser-item navUser-item--account top-icon">
+                            <a class="navUser-action"save href="./login.html">
+                                 <i class="fa fa-sign-out" style="font-size:36px" aria-hidden="true"></i></a> 
+                                 <!-- <span class="navUser-or">or</span> <a class="navUser-action" href="/login.php?action=create_account">Register</a> -->
+                
+                         </li>
+                        <li class="navUser-item navUser-item--cart top-icon">
+                            <a class="navUser-action" data-cart-preview data-dropdown="cart-preview-dropdown"
+                                data-options="align:right" href="/cart.php">
+                                <span class="navUser-item-cartLabel"> <i class="fa fa-shopping-basket"
+                                        aria-hidden="true"></i>
+                                </span> <span class="countPill countPill--positive cart-quantity">2</span>
+                            </a>
+
+                            <div class="dropdown-menu" id="cart-preview-dropdown" data-dropdown-content
+                                aria-hidden="true"></div>
+                        </li>
+                    </ul>
+                    <div class="dropdown dropdown--quickSearch" id="quickSearch" aria-hidden="true" tabindex="-1"
+                        data-prevent-quick-search-close>
+                        <div class="container">
+                            <!--  snippet location forms_search -->
+                            <form class="form" action="/search.php">
+                                <fieldset class="form-fieldset">
+                                    <div class="form-field">
+                                        <label class="is-srOnly" for="search_query">Search</label>
+                                        <input class="form-input" data-search-quick name="search_query"
+                                            id="search_query" data-error-message="Search field cannot be empty."
+                                            placeholder="Search the store" autocomplete="off">
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <section class="quickSearchResults" data-bind="html: results"></section>
+                        </div>
+                    </div>
+                </nav> 
+                <!-- menu start -->
+                 <div class="col-sm-4 wb-tblt-menu">
+                    <div class="navPages-container" id="menu" data-menu>
+                        <nav class="navPages">
+                            <div class="navPages-quickSearch">
+                                <div class="container">
+                                     snippet location forms_search 
+                                     <form class="form" action="/search.php">
+                                        <fieldset class="form-fieldset">
+                                            <div class="form-field">
+                                                <label class="is-srOnly" for="search_query">Search</label>
+                                                <input class="form-input" data-search-quick name="search_query"
+                                                    id="search_query" data-error-message="Search field cannot be empty."
+                                                    placeholder="Search the store" autocomplete="off">
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                    <section class="quickSearchResults" data-bind="html: results"></section>
+                                </div>
+                            </div> 
+                             <ul class="navPages-list">
+                                <li class="navPages-item">
+                                    <a class="navPages-action"
+                                        href="./index.html">Home</a>
+                                </li>
+                                <li class="navPages-item">
+                                    <a class="navPages-action"
+                                       >About Us</a>
+                                </li>
+                                <li class="navPages-item">
+                                    <a class="navPages-action"
+                                      >Gallery</a>
+                                </li>
+                                <li class="navPages-item navPages-item-page">
+                                    <a class="navPages-action" >Services</a>
+                                </li>
+                                
+                            </ul>
+                             <ul class="navPages-list navPages-list--user">
+                                <li class="navPages-item">
+                                    <a class="navPages-action has-subMenu" href="#" data-collapsible="navPages-currency"
+                                        aria-controls="navPages-currency" aria-expanded="false">
+                                        USD <i class="icon navPages-action-moreIcon" aria-hidden="true"><svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-chevron-down"></use>
+                                            </svg></i>
+                                    </a>
+                                    <div class="navPage-subMenu" id="navPages-currency" aria-hidden="true"
+                                        tabindex="-1">
+                                        <ul class="navPage-subMenu-list">
+                                            <li class="navPage-subMenu-item">
+                                                <a class="navPage-subMenu-action navPages-action"
+                                                    href="https://coffee.mybigcommerce.com/login.html?setCurrencyId=1">
+                                                    Indian Rupee
+                                                </a>
+                                            </li>
+                                            <li class="navPage-subMenu-item">
+                                                <a class="navPage-subMenu-action navPages-action"
+                                                    href="https://coffee.mybigcommerce.com/login.html?setCurrencyId=2">
+                                                    <strong>Dollar</strong>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="navPages-item">
+                                    <a class="navPages-action" href="./login.html">Sign in</a>
+                                    or <a class="navPages-action" href="./login.html">Register</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div> 
+                </div>
+                <!-- Logo -->
+                 <div class="col-sm-4 wb-tblt-logo">
+                    <div class="header-logo header-logo--center">
+                        <a href="https://coffee.mybigcommerce.com/">
+                            <img class="header-logo-image"
+                                src="https://cdn11.bigcommerce.com/s-oxligrgbea/images/stencil/190x100/coffee-logo_1507212467__42128.original.png"
+                                alt="coffee" title="coffee">
+                        </a>
+                    </div>
+                    <div data-content-region="header_bottom"></div>
+                </div> 
+                <!-- Logo End --> 
+             </div>
+        </div>
+    </header> 
+     <div class="body">
+        <div class="container-fluid">
+            <div class="container"> 
+                <h1 class="page-heading">New Account</h1> 
+                <table style="margin: auto;">
+                    <tr>
+                        <td><label class="form-label" style="text-align: left;"> Name</label></td><br>
+                    </tr>
+                    <tr>
+                        <td><input type="name" id="name" style=" margin-bottom: 10px; width: 500px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="form-label" style="text-align: left;"> Email Address</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="email" style=" margin-bottom: 10px; width: 500px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="form-label" style="text-align: left;"> password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="password" style=" margin-bottom: 10px; width: 500px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="form-label" style="text-align: left;"> Confrom-password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="cpassword" style=" margin-bottom: 10px; width: 500px;"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="button button--primary" onclick="save()">Create Account</button></a>
+                        </td>
+                    </tr>
+                </table>
+             </div>
+        </div>
+    </div> 
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <section class="footer-info">
+                <article class="" data-section-type="newsletterSubscription">
+                    <div class="wb-newsletter">
+                        <h5 class="footer-info-heading">Subscribe to our newsletter</h5>
+                        <p>Get the latest updates on new products and upcoming sales</p>
+
+                        <form class="form" action="/subscribe.php" method="post">
+                            <fieldset class="form-fieldset">
+                                <input type="hidden" name="action" value="subscribe">
+                                <input type="hidden" name="nl_first_name" value="bc">
+                                <input type="hidden" name="check" value="1">
+                                <div class="form-field">
+                                    <label class="form-label is-srOnly" for="nl_email">Email Address</label>
+                                    <div class="form-prefixPostfix wrap">
+                                        <input class="form-input" id="nl_email" name="nl_email" type="email" value=""
+                                            placeholder="Your email address">
+                                        <input class="button button--primary form-prefixPostfix-button--postfix"
+                                            type="submit" value="Subscribe">
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </article>
+                <article class="footer-info-col footer-info-col--small" data-section-type="footer-webPages">
+                    <h5 class="footer-info-heading">Navigate</h5>
+                    <ul class="footer-info-list">
+                        <li>
+                            <a href="https://coffee.mybigcommerce.com/blog/">Blog</a>
+                        </li>
+                        <li>
+                            <a href="/sitemap.php">Sitemap</a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="footer-info-col footer-info-col--small" data-section-type="footer-categories">
+                    <h5 class="footer-info-heading">Categories</h5>
+                    <ul class="footer-info-list">
+                        <li>
+                            <a href="https://coffee.mybigcommerce.com/product-category-1/">Fresh Coffee</a>
+                        </li>
+                        <li>
+                            <a href="https://coffee.mybigcommerce.com/coffee/">Coffee</a>
+                        </li>
+                        <li>
+                            <a href="https://coffee.mybigcommerce.com/product-category-3/">The Coffee</a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="footer-info-col footer-info-col--small" data-section-type="footer-brands">
+                    <h5 class="footer-info-heading">Popular Brands</h5>
+                    <ul class="footer-info-list">
+                        <li>
+                            <a href="https://coffee.mybigcommerce.com/brands/Brand-6.html">Brand 6</a>
+                        </li>
+                        <li><a href="https://coffee.mybigcommerce.com/brands/">View All</a></li>
+                    </ul>
+                </article>
+
+                <article class="footer-info-col footer-info-col--small" data-section-type="storeInfo">
+                    <h5 class="footer-info-heading">Info</h5>
+                    <address class="address-map"> Webiarch Infotech, 4th Floor,<br>
+                        yogini building, Varachha Road<br>
+                        Surat 395006</address>
+                    <div class="call-us-now">9871234580</div>
+                </article>
+            </section>
+            <div class="copyright-by">
+                <div class="footer-copyright">
+                    <p class="powered-by">Powered by <a href="https://www.bigcommerce.com/"
+                            rel="nofollow">BigCommerce</a></p>
+                </div>
+                <div class="footer-copyright">
+                    <p class="powered-by">&copy; 2023 coffee </p>
+                </div>
+                <div class="payment">
+                    <ul class="list-unstyled footer-pay" type="none">
+                        <li><a class="p-payment" href="#"><i class="fa fa-credit-card-alt" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a class="p-visa" href="#"><i class="fa fa-money" aria-hidden="true"></i></a></li>
+                        <li><a class="p-credit" href="#"><i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
+                        <li><a class="p-master" href="#"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a></li>
+                        <li><a class="p-master" href="#"><i class="fa fa-paypal" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=128339394649061&ev=PageView&noscript=1" />
+    </noscript>
+ 
+</body>
+</html>
+
+<script type="text/javascript">
+    let data=[];
+
+   const save = () =>{
+    let name = document.getElementById('name').value;
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+    let cpassword = document.getElementById('cpassword').value;
+
+    if(!name){
+        alert("please fill name");
+        return true;
+    }
+    
+    if(!email){
+        alert("please fill valid email");
+        return true;
+    }
+    if(cpassword == password){
+        let obj = {
+            name : name,
+            email : email,
+            password : password,
+            cpassword : cpassword,
+        }
+
+    
+        if(localStorage.getItem('register') === null || localStorage.getItem('register')=== undefined){
+            data.push(obj);
+            localStorage.setItem('register',JSON.stringify(data));
+        }else{
+            let val = JSON.parse(localStorage.getItem('register'));
+            val.push(obj);
+            localStorage.setItem('register',JSON.stringify(val));
+        }
+    
+        alert("data sucessfully created");
+
+           document.getElementById('name').value="";
+           document.getElementById('email').value="";
+           document.getElementById('password').value="";
+           document.getElementById('cpassword').value="";
+           window.location.href="./login.html";
+
+   }else{
+    alert("password and confrompassword is not match.");
+   }
+}
+</script>
